@@ -187,33 +187,40 @@ section {
     justify-content: center;
 }
 
-.section_text_p1 {
+.section_text p {
     font-weight: 600;
+    text-align: center;
+
+}
+
+.section_text_p1 {
+    font-weight: 300;
     text-align: center;
 
 }
 
 .section_text_p2 {
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
 }
 
-.tittle {
+.title {
     font-size: 3rem;
     text-align: center;
 
 }
 
-#soicals-container {
+#socials-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 
 .icon {
     cursor: pointer;
     height: 2rem;
+
 }
 
 /* BUTTON */
@@ -244,12 +251,13 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(94, 94, 94);
+    background: rgb(255, 255, 255);
     color: #fff;
 }
 
 .btn-color-1,
 .btn-color-2:hover {
+    color: #fff;
     background: #000;
 }
 
@@ -263,4 +271,101 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+
+
+
+
+/* ABOUT SECTION */
+#about {
+
+    position: relative;
+
+}
+
+.about-containers {
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: #fff;
+    border-radius: 2rem;
+    border: rgb(89, 89, 87) 0.1rem solid;
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* EXPERIANCE SECTION */
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(89, 89, 87);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+article .icon {
+    cursor: default;
 }
