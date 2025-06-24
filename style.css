@@ -249,16 +249,16 @@ section {
     cursor: pointer;
 }
 
-.btn-color-1,
-.btn-color-2:hover {
+.btn-color-2,
+.btn-color-1:hover {
     background: rgb(255, 255, 255);
-    color: #fff;
+    color: #000000;
 }
 
 .btn-color-1,
 .btn-color-2:hover {
     color: #fff;
-    background: #000;
+    background: #000000;
 }
 
 .btn-color-2 {
@@ -368,4 +368,76 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+
+/* PROJECTS */
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(89, 89, 87);
+    background: #fff;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+}
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(89, 89, 87) 0.1rem solid;
+    margin: 2rem auto;
+    padding: 0.4rem;
+}
+
+.contatct-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contatct-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.4rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
 }
